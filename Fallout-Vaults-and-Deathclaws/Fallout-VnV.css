@@ -1,8 +1,7 @@
 /*-----background-----*/
 
 .charsheet {
-    background-color: #000000;
-    background-size: 100%;
+  background-image: url(https://cdn.discordapp.com/attachments/560993736255995921/1059149245011198072/Oneiris_au_Athenais_detailed_landscape_of_Isla_sorna_looking_in_f15052b4-22e7-4483-89ef-4f9619b625b9.png);
 }
 
 .sheet-clear {
@@ -36,10 +35,10 @@ input.sheet-tab1 {
 input.sheet-tab::before {
     content: attr(title);
     display: inline-block;
-    color: #F1C11E;
+    color: #7DE8F4;
 
-    background: #000000;
-    border: solid 1px #F1C11E;
+    background: #7DE8F4;
+    border: solid 1px #7DE8F4;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
 
@@ -52,9 +51,9 @@ input.sheet-tab::before {
 }
 
 input.sheet-tab:checked::before {
-    color: #000000;
+    color: #7DE8F4;
 
-    background: #F1C11E;
+    background: #7DE8F4;
 }
 
 .sheet-tab-br {
@@ -88,9 +87,9 @@ input.sheet-arrow:checked ~ div.sheet-body {
     align-items: center;
     
     background-color: #000000;
-    border: 1px solid #F1C11E; 
+    border: 1px solid #7DE8F4; 
     border-radius: 5px; 
-    box-shadow: 0 0 5px 3px #000000;
+    box-shadow: 0 0 5px 3px #7DE8F4;
     
     margin-top: auto;
     margin-left: auto;
@@ -100,7 +99,7 @@ input.sheet-arrow:checked ~ div.sheet-body {
 }
 
 .sheet-prime > div {
-    color: #F1C11E;
+    color: #7DE8F4;
     font-weight: bold;
     line-height: 20px;
     margin: 1px;
@@ -152,12 +151,12 @@ input.sheet-arrow[type="checkbox"]:checked + span::before
 
 .sheet-select {
     margin-bottom: 0;
-    color: #F1C11E;
+    color: #7DE8F4;
     font-weight: bold;
     font-size:0.8em;
     text-align: center;
     background: #000000;
-    border: 1px solid #F1C11E; 
+    border: 1px solid #7DE8F4; 
     border-radius: 5px; 
     box-shadow: 0 0 5px 3px #000000;
     width: 12%;
@@ -166,32 +165,32 @@ input.sheet-arrow[type="checkbox"]:checked + span::before
     /*-----text-----*/
 
 h5 {
-    color: #F1C11E;
+    color: #7DE8F4;
     font-weight: bold;
 }
 
 th {
-    text-shadow: 0px 0px 10px #F1C11E;
-    color:#F1C11E;
+    text-shadow: 0px 0px 10px #586169;
+    color:#7DE8F4;
 }
 
 h4 {
-    color: #F1C11E;
+    color: #7DE8F4;
     font-weight: bold;
     text-align: center;
     background: #000000;
-    border: 1px solid #F1C11E; 
+    border: 1px solid #586169; 
     border-radius: 10px; 
     box-shadow: 0 0 5px 3px #000000;
     margin: 5px;
 }
 
 h3 {
-    color: #F1C11E;
+    color: #7DE8F4;
     font-weight: bold;
     text-align: center;
-    background: #000000;
-    border: 1px solid #F1C11E; 
+    background: rgba(1,96,118,0.5);
+    border: 1px solid #7DE8F4; 
     border-radius: 5px; 
     box-shadow: 0 0 5px 3px #000000;
     margin: 5px;
@@ -199,12 +198,12 @@ h3 {
 
 h2 {
     text-shadow: 0px 0px 20px black;
-    color:#F1C11E;
+    color:#7DE8F4;
 }
 
 {
     text-shadow: 0px 0px 10px black;
-    color:#F1C11E;
+    color:#7DE8F4;
 }
 
 .sheet-center {
@@ -231,11 +230,11 @@ h2 {
     margin-left: auto; 
     margin-right: auto;
     
-    color: #F1C11E;
+    color: #7DE8F4;
     font-weight: bold;
     text-align: center;
     background: #000000;
-    border: 1px solid #F1C11E; 
+    border: 1px solid #7DE8F4; 
     border-radius: 5px; 
     box-shadow: 0 0 5px 3px #000000;
 }
@@ -245,11 +244,11 @@ h2 {
     margin-left: auto; 
     margin-right: auto;
     
-    color: #F1C11E;
+    color: #7DE8F4;
     font-weight: bold;
     text-align: center;
     background: #000000;
-    border: 1px solid #F1C11E; 
+    border: 1px solid #7DE8F4; 
     border-radius: 5px; 
     box-shadow: 0 0 5px 3px #000000;
 }
@@ -259,11 +258,11 @@ h2 {
     margin-left: auto; 
     margin-right: auto;
     
-    color: #F1C11E;
+    color: #7DE8F4;
     font-weight: bold;
     text-align: center;
     background: #000000;
-    border: 1px solid #F1C11E; 
+    border: 1px solid #7DE8F4; 
     border-radius: 5px; 
     box-shadow: 0 0 5px 3px #000000;
 }
@@ -273,25 +272,25 @@ h2 {
     margin-left: auto; 
     margin-right: auto;
     
-    color: #F1C11E;
+    color: #7DE8F4;
     font-weight: bold;
     text-align: center;
     background: #000000;
-    border: 1px solid #F1C11E; 
+    border: 1px solid #7DE8F4; 
     border-radius: 5px; 
     box-shadow: 0 0 5px 3px #000000;
 }
 
 .sheet-center_skill {
-    text-align: center;
+    text-align: left;
     margin-left: auto; 
     margin-right: auto;
 
-    color: #F1C11E;
+    color: #7DE8F4;
     font-weight: bold;
-    text-align: center;
-    background: #000000;
-    border: 1px solid #F1C11E; 
+    text-align: left;
+    background: rgba(1,96,118,0.5);
+    border: 1px solid #7DE8F4; 
     border-radius: 5px; 
     box-shadow: 0 0 5px 3px #000000;
 }
@@ -301,11 +300,11 @@ h2 {
     margin-left: auto; 
     margin-right: auto;
     
-    color: #F1C11E;
+    color: #7DE8F4;
     font-weight: bold;
     text-align: center;
     background: #000000;
-    border: 1px solid #F1C11E; 
+    border: 1px solid #7DE8F4; 
     border-radius: 5px; 
     box-shadow: 0 0 5px 3px #000000;
 }
@@ -335,7 +334,7 @@ input.sheet-bigcheck[type="checkbox"]
 input.sheet-bigcheck[type="checkbox"] + span::before
 {
     margin-right: 4px;
-    border: solid 1px #F1C11E;
+    border: solid 1px #7DE8F4;
     line-height: 14px;
     text-align: center;
     display: inline-block;
@@ -345,12 +344,12 @@ input.sheet-bigcheck[type="checkbox"] + span::before
     -webkit-box-shadow: 0 0 2px #000000;
     box-shadow: 0 0 2px #000000;
     
-    background: #F1C11E;
-    background: -moz-radial-gradient(#000000, #F1C11E);
-    background: -webkit-radial-gradient(#000000, #F1C11E);
-    background: -ms-radial-gradient(#000000, #F1C11E);
-    background: -o-radial-gradient(#000000, #F1C11E);
-    background: radial-gradient(#000000, #F1C11E);
+    background: #7DE8F4;
+    background: -moz-radial-gradient(#000000, #7DE8F4);
+    background: -webkit-radial-gradient(#000000, #7DE8F4);
+    background: -ms-radial-gradient(#000000, #7DE8F4);
+    background: -o-radial-gradient(#000000, #7DE8F4);
+    background: radial-gradient(#000000, #7DE8F4);
 }
 
 input.sheet-bigcheck[type="checkbox"] + span::before
@@ -395,7 +394,7 @@ input.sheet-roundcheck[type="checkbox"]
 input.sheet-roundcheck[type="checkbox"] + span::before
 {
     margin-right: 4px;
-    border: solid 1px #F1C11E;
+    border: solid 1px #7DE8F4;
     line-height: 14px;
     text-align: center;
     display: inline-block;
@@ -404,14 +403,14 @@ input.sheet-roundcheck[type="checkbox"] + span::before
 
     -moz-box-shadow: 0 0 20px #ccc;
     -webkit-box-shadow: 0 0 20px #ccc;
-    box-shadow: 0 0 20px #F1C11E;
+    box-shadow: 0 0 20px #7DE8F4;
     
     background: #000000;
-    background: -moz-radial-gradient(#000000, #F1C11E);
-    background: -webkit-radial-gradient(#000000, #F1C11E);
-    background: -ms-radial-gradient(#000000, #F1C11E);
-    background: -o-radial-gradient(#000000, #F1C11E);
-    background: radial-gradient(#000000, #F1C11E);
+    background: -moz-radial-gradient(#000000, #7DE8F4);
+    background: -webkit-radial-gradient(#000000, #7DE8F4);
+    background: -ms-radial-gradient(#000000, #7DE8F4);
+    background: -o-radial-gradient(#000000, #7DE8F4);
+    background: radial-gradient(#000000, #7DE8F4);
     
     -moz-border-radius:  20px 20px 20px 20px;
     -webkit-border-radius:  20px 20px 20px 20px;
@@ -437,22 +436,22 @@ input.sheet-roundcheck[type="checkbox"]:checked + span::before
 }
 
 .sheet-text_stat {
-    color: #F1C11E;
+    color: #7DE8F4;
     font-weight: bold;
     text-align: center;
     background: #000000;
-    border: 0px solid #F1C11E; 
+    border: 0px solid #7DE8F4; 
     border-radius: 5px; 
     box-shadow: 0 0 5px 3px #000000;
     width: 10%;
     margin: 5px;
 }
 .sheet-text_stats {
-    color: #F1C11E;
+    color: #7DE8F4;
     font-weight: bold;
     text-align: right;
     background: #000000;
-    border: 0px solid #F1C11E; 
+    border: 0px solid #7DE8F4; 
     border-radius: 5px; 
     box-shadow: 0 0 5px 3px #000000;
     width: 16%;
@@ -460,11 +459,11 @@ input.sheet-roundcheck[type="checkbox"]:checked + span::before
 }
 
 .sheet-text_statscenter {
-    color: #F1C11E;
+    color: #7DE8F4;
     font-weight: bold;
     text-align: center;
-    background: #000000;
-    border: 0px solid #F1C11E; 
+    background: rgba(1,96,118,0.5);
+    border: 0px solid #7DE8F4; 
     border-radius: 5px; 
     box-shadow: 0 0 5px 3px #000000;
     width: 16%;
@@ -472,11 +471,11 @@ input.sheet-roundcheck[type="checkbox"]:checked + span::before
 }
 
 .sheet-text_formula {
-    color: #F1C11E;
+    color: #7DE8F4;
     font-weight: bold;
     text-align: center;
     background: #000000;
-    border: 0px solid #F1C11E; 
+    border: 0px solid #7DE8F4; 
     border-radius: 5px; 
     box-shadow: 0 0 5px 3px #000000;
     width: 20%;
@@ -484,11 +483,11 @@ input.sheet-roundcheck[type="checkbox"]:checked + span::before
 }
 
 .sheet-text_statplus {
-    color: #F1C11E;
+    color: #7DE8F4;
     font-weight: bold;
     text-align: center;
     background: #000000;
-    border: 0px solid #F1C11E; 
+    border: 0px solid #7DE8F4; 
     border-radius: 5px; 
     box-shadow: 0 0 5px 3px #000000;
     width: 8.5%;
@@ -496,45 +495,45 @@ input.sheet-roundcheck[type="checkbox"]:checked + span::before
 }
 
 .sheet-text_stattag {
-    color: #F1C11E;
+    color: #7DE8F4;
     font-weight: bold;
     text-align: center;
-    background: #000000;
-    border: 0px solid #F1C11E; 
+    background: rgba(1,96,118,0.5);
+    border: 0px solid #7DE8F4; 
     width: 7.5%;
 }
 .sheet-text_dtdr {
-    color: #F1C11E;
+    color: #7DE8F4;
     font-weight: bold;
     text-align: center;
     background: #000000;
-    border: 0px solid #F1C11E; 
+    border: 0px solid #7DE8F4; 
     width: 8%;
 }
 
 .sheet-text_damage {
-    color: #F1C11E;
+    color: #7DE8F4;
     font-weight: bold;
     text-align: center;
     background: #000000;
-    border: 0px solid #F1C11E; 
+    border: 0px solid #7DE8F4; 
     width: 20%;
 }
 .sheet-text_damagetext {
-    color: #F1C11E;
+    color: #7DE8F4;
     font-weight: bold;
     text-align: center;
     background: #000000;
-    border: 0px solid #F1C11E; 
+    border: 0px solid #7DE8F4; 
     font-size:9px;
 }
 
 .sheet-text_statname {
-    color: #F1C11E;
+    color: #7DE8F4;
     font-weight: bold;
     text-align: center;
     background: #000000;
-    border: 0px solid #F1C11E; 
+    border: 0px solid #7DE8F4; 
     border-radius: 5px; 
     box-shadow: 0 0 5px 3px #000000;
     width: 20%;
@@ -542,45 +541,61 @@ input.sheet-roundcheck[type="checkbox"]:checked + span::before
 }
 
 .sheet-text_statistic {
-    color: #F1C11E;
+    color: #7DE8F4;
     font-weight: bold;
     text-align: center;
     background: #000000;
-    border: 0px solid #F1C11E; 
+    border: 0px solid #7DE8F4; 
     border-radius: 5px; 
     width: 20%;
     margin: 3px;
 }
 
 .sheet-text_statsname {
-    color: #F1C11E;
+    color: #7DE8F4;
     font-weight: bold;
     text-align: center;
     background: #000000;
-    border: 0px solid #F1C11E; 
+    border: 0px solid #7DE8F4; 
     border-radius: 5px; 
     width: 30%;
     margin: 3px;
 }
 
 .sheet-text_skillname {
-    color: #F1C11E;
+    color: #7DE8F4;
     font-weight: bold;
     text-align: center;
-    background: #000000;
-    border: 0px solid #F1C11E; 
+    background: rgba(1,96,118,0.5);
+    border: 0px solid #7DE8F4; 
     border-radius: 5px; 
-
+    box-shadow: 0 0 5px 3px #000000;
     width: 33%;
-    margin: 3px;
+    margin-left: 12px;
+    margin-right: 10px;
+}
+
+.sheet-text_skillname2 {
+    color: #7DE8F4;
+    font-weight: bold;
+    text-align: center;
+    background: rgba(1,96,118,0.5);
+    border: 0px solid #7DE8F4; 
+    border-radius: 5px; 
+    box-shadow: 0 0 5px 3px #000000;
+    width: 33%;
+    margin-left: 44.85px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .sheet-text_statsseq {
-    color: #F1C11E;
+    color: #7DE8F4;
     font-weight: bold;
     text-align: right;
     background: #000000;
-    border: 0px solid #F1C11E; 
+    border: 0px solid #7DE8F4; 
     border-radius: 5px; 
     box-shadow: 0 0 5px 0px #000000;
     width: 18%;
@@ -588,11 +603,11 @@ input.sheet-roundcheck[type="checkbox"]:checked + span::before
 }
 
 .sheet-text_left {
-    color: #F1C11E;
+    color: #7DE8F4;
     font-weight: bold;
     text-align: right;
     background: #000000;
-    border: 1px solid #F1C11E; 
+    border: 1px solid #7DE8F4; 
     border-radius: 5px; 
     box-shadow: 0 0 5px 3px #000000;
     width: 20%;
@@ -600,11 +615,11 @@ input.sheet-roundcheck[type="checkbox"]:checked + span::before
 }
 
 .sheet-text_level {
-    color: #F1C11E;
+    color: #7DE8F4;
     font-weight: bold;
     text-align: right;
     background: #000000;
-    border: 1px solid #F1C11E; 
+    border: 1px solid #7DE8F4; 
     border-radius: 5px; 
     box-shadow: 0 0 5px 3px #000000;
     width: 22%;
@@ -612,11 +627,11 @@ input.sheet-roundcheck[type="checkbox"]:checked + span::before
 }
 
 .sheet-text_perk {
-    color: #F1C11E;
+    color: #7DE8F4;
     font-weight: bold;
     text-align: right;
     background: #000000;
-    border: 1px solid #F1C11E; 
+    border: 1px solid #7DE8F4; 
     border-radius: 5px; 
     box-shadow: 0 0 5px 3px #000000;
     width: 32%;
@@ -624,11 +639,11 @@ input.sheet-roundcheck[type="checkbox"]:checked + span::before
 }
 
 .sheet-text_center {
-    color: #F1C11E;
+    color: #7DE8F4;
     font-weight: bold;
     text-align: center;
     background: #000000;
-    border: 1px solid #F1C11E; 
+    border: 1px solid #7DE8F4; 
     border-radius: 5px; 
     box-shadow: 0 0 5px 0px #000000;
     width: 120px;
@@ -639,7 +654,7 @@ input.sheet-roundcheck[type="checkbox"]:checked + span::before
     color: #000000;
     font-weight: bold;
     text-align: left;
-    background: #F1C11E;
+    background: rgba(1,96,118,0.5);
     border: 1px solid #000000; 
     border-radius: 5px; 
     box-shadow: 0 0 5px 3px #000000;
@@ -654,7 +669,7 @@ input.sheet-roundcheck[type="checkbox"]:checked + span::before
     color: #000000;
     font-weight: bold;
     text-align: left;
-    background: #F1C11E;
+    background: #7DE8F4;
     border: 1px solid #000000; 
     border-radius: 5px; 
     box-shadow: 0 0 5px 3px #000000;
@@ -666,7 +681,7 @@ textarea {
     color: #000000;
     font-weight: bold;
     text-align: left;
-    background: #F1C11E;
+    background: #7DE8F4;
     border: 1px solid #000000; 
     border-radius: 5px; 
     box-shadow: 0 0 5px 3px #000000;
@@ -680,10 +695,43 @@ textarea {
     color: #000000;
     font-weight: bold;
     text-align: center;
-    background: #F1C11E;
+    background: rgba(1,96,118,0.5);
     border: 1px solid #000000; 
     border-radius: 5px; 
     box-shadow: 0 0 0px 0px #000000;
+}
+
+.sheet-number_dis {
+    height: 20px;
+    width: 45.5px;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    background: rgba(1,96,118,0.5);
+    border: 1px solid #000000; 
+    border-radius: 5px; 
+    box-shadow: 0 0 0px 0px #000000;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.sheet-number_sel {
+    height: 28px;
+    width: 45.5px;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    background: rgba(1,96,118,0.5);
+    border: 1px solid #000000; 
+    border-radius: 5px; 
+    box-shadow: 0 0 0px 0px #000000;
+    margin: 5px;
+}
+
+select {
+  display: inline-block;
 }
 .sheet-number_formula {
     height: 20px;
@@ -691,7 +739,7 @@ textarea {
     color: #000000;
     font-weight: bold;
     text-align: center;
-    background: #F1C11E;
+    background: #7DE8F4;
     border: 1px solid #000000; 
     border-radius: 5px; 
     box-shadow: 0 0 0px 0px #000000;
@@ -703,25 +751,24 @@ textarea {
     color: #000000;
     font-weight: bold;
     text-align: center;
-    background: #F1C11E;
+    background: #7DE8F4;
     border: 1px solid #000000; 
     border-radius: 5px; 
     box-shadow: 0 0 0px 0px #000000;
 }
 
 /*----Sheet Skill Button----*/
-
 .sheet-skill_button {
   background: #000000;
-  background-image: -webkit-linear-gradient(top, #FFE000, #000000);
-  background-image: -moz-linear-gradient(top, #FFE000, #000000);
-  background-image: -ms-linear-gradient(top, #FFE000, #000000);
-  background-image: -o-linear-gradient(top, #FFE000, #000000);
-  background-image: linear-gradient(bottom, #FFE000, #000000);
+  background-image: -webkit-linear-gradient(top, #7DE8F4, #000000);
+  background-image: -moz-linear-gradient(top, #7DE8F4, #000000);
+  background-image: -ms-linear-gradient(top, #7DE8F4, #000000);
+  background-image: -o-linear-gradient(top, #7DE8F4, #000000);
+  background-image: linear-gradient(bottom, #7DE8F4, #000000);
   -webkit-border-radius: 40px;
   -moz-border-radius: 40px;
   border-radius: 40px;
-  color: #FFE000;
+  color: #7DE8F4;
   font-size: 20px;
   padding: 10px 5px 10px 5px;
   text-decoration: none;
@@ -729,11 +776,11 @@ textarea {
 
 .sheet-skill_button:hover {
   background: #000000;
-  background-image: -webkit-linear-gradient(top, #F1C11E, #000000);
-  background-image: -moz-linear-gradient(top, #F1C11E, #000000);
-  background-image: -ms-linear-gradient(top, #F1C11E, #000000);
-  background-image: -o-linear-gradient(top, #F1C11E, #000000);
-  background-image: linear-gradient(to bottom, #F1C11E, #000000);
+  background-image: -webkit-linear-gradient(top, #7DE8F4, #000000);
+  background-image: -moz-linear-gradient(top, #7DE8F4, #000000);
+  background-image: -ms-linear-gradient(top, #7DE8F4, #000000);
+  background-image: -o-linear-gradient(top, #7DE8F4, #000000);
+  background-image: linear-gradient(to bottom, #7DE8F4, #000000);
   text-decoration: none;
 }
 
@@ -748,4 +795,59 @@ input::-webkit-inner-spin-button {
     /* display: none; <- Crashes Chrome on hover */
     -webkit-appearance: none;
     margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+
+.repcontrol{
+	margin-right: 7px;
+}
+
+div.repcontrol button
+{
+    width: 10px;
+    height: 10px;
+    color: transparent;
+	text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+	 
+}
+
+div.repcontrol button.repcontrol_add::before,
+div.repcontrol button.repcontrol_edit::before
+{
+    font-family: Pictos;
+    position: relative;
+    color: #000;
+}
+
+/* +Add */
+div.repcontrol button.repcontrol_add::before
+{
+	text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    content: "&"; /* & in Pictos is a + sign, while + is a plus inside a circle */    
+    left: -5px;
+    top: -4px;
+}
+
+/* Modify */
+div.repcontrol button.repcontrol_edit::before
+{
+	text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    content: "x"; /* x in Pictos is a crossed hammer and wrench */
+    left: -5px;
+    top: -4px;
+}
+/* Done */
+div.repcontrol.editmode button.repcontrol_edit::before
+{
+    content: "3"; /* 3 in Pictos is a check mark */
+	 
+}
+
+.charsheet .repcontainer[data-groupname=repeating_mutations] {
+  width: 100%;
+}
+
+.repcontrol_edit {
+    background-color: rgba:(1, 96, 118, 0.5);
+}
 }
